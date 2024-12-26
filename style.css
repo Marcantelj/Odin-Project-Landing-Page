@@ -19,7 +19,6 @@ body {
     padding: 8px 0px 60px 0px;
 } 
 
-
 .box2 {
     display: flex;
     gap: 16px;
@@ -121,7 +120,43 @@ button {
 }
 
 /* section 5 */
+.call-to-action-content {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 100px 80px 100px;
+    border-radius: 8px;
+    padding: 20px;
+    gap: 32px
+}
 
+.box8 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 90px;
+}
+
+.box9>button {
+    border-color: #F8FAF8;
+    border-radius: 8px;
+}
+
+.box9>button:hover {
+    background-color: #F8FAF8;
+    color: #3882F6;
+}
+
+
+/* section 6 */
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px 0px;
+}
 
 /* text styling */
 
