@@ -9,110 +9,161 @@ body {
     font-family: "Roboto", serif;
 }
 
-/* Header content */
-.header {
+/* section 1 */
+.nav {
+    background-color: #1f2937;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
-    background-color: #1F2937;
+    gap: 300px;
+    padding: 8px 0px 60px 0px;
+} 
+
+
+.box2 {
+    display: flex;
+    gap: 16px;
+    flex-shrink: 1px;
 }
 
-.header-links {
+/* section 2 */
+
+.hero-content {
+    background-color: #1f2937;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 80px 0px;
     gap: 16px;
 }
 
-/* Content 1 */
-.content1 {
+.box3 {
     display: flex;
-    background-color: #1F2937;
-    align-items: center;
-    justify-content: space-around;
-    padding: 28px;    
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 50px;
+    flex-shrink: 1;
 }
 
-.content-box-1 {
-    display: flex;
-    align-items: start;
-    flex-direction: column;
-    width: 400px;
+.box3 > h1, p {
+    padding-bottom: 8px;
+}
+
+.box4 {
+    margin-right: 95px;
 }
 
 button {
-    padding: 4px 16px;
-    color: #F9FAF8;
-    background-color: #3882f6;
+    padding: 4px 8px;
+    width: 75px;
+    background-color: #3882F6;
+    color: #F9FAF8
 }
 
-#hero-button {
-    border: 1px solid black;
+#herobutton {
+    border-radius: 4px;
+    border: #3882F6;
 }
 
-#hero-button:hover {
+#herobutton:hover {
     background-color: #F9FAF8;
-    color: #3882f6;
+    color: #3882F6;
 }
-
-#hero-image {
-    width:400px;
-}
-
-.content2 {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    gap: 10px;
-}
-
-.small-image {
-    width: 100px;
-    height: 100px;
-    border: 2px solid #3882f6;
-}
-
-.content3 {
-    background-color: #E5E7EB;
+/* section 3 */
+.images-content {
     display: flex;
     flex-direction: column;
-    text-align: left;
+    align-items: center;
+    margin: 0px 0px 40px 0px;
 }
 
-/* Text Properties */
-.header-logo {
+.box4 {
+    margin: 40px 0px 40px 0px;
+}
+
+.box5 {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 80px;
+}
+
+.infobox  {
+    max-width: 135px;
+    text-align: center;
+}
+
+.imgborder {
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+    padding: 20px 40px;
+}
+
+/* section 4 */
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0px 80px 0px;
+    background-color: #e6e7eb;
+    padding: 80px 0px 80px 0px;
+}
+
+.box6 {
+    width: 800px;
+    text-align: start;
+}
+
+.box7 {
+    margin-left: 40%;
+    flex-shrink: 0;
+}
+
+/* section 5 */
+
+
+/* text styling */
+
+h1 {
+    font-size: 48px;
+    color: #F8FAF8;
+    font-weight: 900;
+}
+
+h2 {
     font-size: 24px;
     color: #F9FAF8;
 }
 
-.hero-main-text {
-    color: #F9FAF8;
-    font-size: 48px;
-    font-weight: 900;
-}
-
-.hero_secondary_text{
-    color: #E5E7EB;
+.hero2-link-text {
     font-size: 18px;
+    color: #F9FAF8;
 }
 
-h1 {
-    padding-bottom: 24px;
-    color: #F9FAF8;
-    padding-top: 24px;
+#infoheader {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+#infoheader2 {
+    font-size: 36px;
+    color: #1f2937;
 }
 
 p {
-    padding-bottom: 8px;
+    color: #1f2937;
 }
 
-.information-header {
+#quote-text {
     font-size: 36px;
-    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+#quoted {
+    font-size: 24px;
     font-weight: 900;
-    text-align: right;
-}
-
-.quote {
-    font-size: 36px;
-    font-style: light italic;
-    color: #1F2937;
+    color: #1f2937;
 }
